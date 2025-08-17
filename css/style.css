@@ -13,12 +13,37 @@ body{
     background-color: black;
 }
 
+.halo-text {
+  position: absolute;
+  top: 30%;              /* atur seberapa tinggi di layar */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 120px;      /* gedein/ciilin sesuai selera */
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.08); /* transparan tipis */
+  letter-spacing: 20px;
+  text-align: center;
+  width: 100%;           /* biar tetap proporsional */
+}
+
 
 
 
 .greetings{
-    font-size: 6rem;
-    font-weight: 900;
+    /* font-size: 6rem;
+    font-weight: 900; */
+
+    position: absolute;
+  top: 30%;              /* atur seberapa tinggi di layar */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 120px;      /* gedein/ciilin sesuai selera */
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.08); /* transparan tipis */
+  letter-spacing: 20px;
+  text-align: center;
+  width: 100%; 
+    
 }
 .greetings > span{
     animation: glow 2.5s ease-in-out infinite;
@@ -49,6 +74,7 @@ body{
 .description{
     font-size: 1.5rem;
     margin-bottom: 20px;
+    margin-top: 80px;
 }
 
 .button a{
